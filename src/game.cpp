@@ -111,8 +111,6 @@ void snake(){
 	}
 
 	//drawing body and moving it in respective direction
-	if(bot){ glColor4f(0.1f, 0.6f, 0.1f, 1.0f); }
-	else{ glColor4f(0.9f, 0.9f, 0.9f, 1.0f); }
 	glRectd(head.posx, head.posy, head.posx + 1, head.posy + 1);
 	if(!head.dead){
 		switch(head.direction){
